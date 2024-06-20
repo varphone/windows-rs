@@ -1,6 +1,6 @@
 fn main() {
     let target = std::env::var("TARGET").unwrap();
-    if target != "i686-pc-windows-msvc" && target != "i686-uwp-windows-msvc" {
+    if target != "i686-pc-windows-msvc" && target != "i686-uwp-windows-msvc" && target != "i686-win7-windows-msvc" {
         return;
     }
 
